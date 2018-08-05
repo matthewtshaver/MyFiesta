@@ -8,22 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		E4577D0D1FBE6BCC0067C789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D0C1FBE6BCC0067C789 /* AppDelegate.swift */; };
-		E4577D0F1FBE6BCC0067C789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D0E1FBE6BCC0067C789 /* ViewController.swift */; };
 		E4577D121FBE6BCC0067C789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4577D101FBE6BCC0067C789 /* Main.storyboard */; };
 		E4577D151FBE6BCC0067C789 /* MyFiesta.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4577D131FBE6BCC0067C789 /* MyFiesta.xcdatamodeld */; };
 		E4577D171FBE6BCC0067C789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4577D161FBE6BCC0067C789 /* Assets.xcassets */; };
 		E4577D1A1FBE6BCC0067C789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4577D181FBE6BCC0067C789 /* LaunchScreen.storyboard */; };
+		E4577D221FBE74BA0067C789 /* CollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D211FBE74BA0067C789 /* CollectionTableViewController.swift */; };
+		E4577D241FBE7C900067C789 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D231FBE7C900067C789 /* CollectionTableViewCell.swift */; };
+		E4577D261FBE808B0067C789 /* CollectionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D251FBE808B0067C789 /* CollectionDetailViewController.swift */; };
+		E4577D281FBE90AD0067C789 /* CollectionDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D271FBE90AD0067C789 /* CollectionDetailTableViewCell.swift */; };
+		E4577D301FC2539E0067C789 /* AddCollectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4577D2F1FC2539E0067C789 /* AddCollectionTableViewController.swift */; };
+		E4A3740E1FE1CC58005CAD9C /* ColorHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3740D1FE1CC58005CAD9C /* ColorHistoryTableViewController.swift */; };
+		E4A374101FE1D178005CAD9C /* ColorHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A3740F1FE1D178005CAD9C /* ColorHistoryTableViewCell.swift */; };
+		E4BE821D1FCCE41400189EAB /* ColorHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BE821C1FCCE41400189EAB /* ColorHistory.swift */; };
+		E4D8D4E220AE4E43004DF834 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D8D4E120AE4E43004DF834 /* AboutTableViewController.swift */; };
+		E4E6238C20C5EF340059F0A7 /* FavoritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6238B20C5EF340059F0A7 /* FavoritesTableViewController.swift */; };
+		E4E6238E20C5F14C0059F0A7 /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E6238D20C5F14C0059F0A7 /* FavoritesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4577D091FBE6BCC0067C789 /* MyFiesta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFiesta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4577D091FBE6BCC0067C789 /* VistosoPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VistosoPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4577D0C1FBE6BCC0067C789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4577D0E1FBE6BCC0067C789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4577D111FBE6BCC0067C789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4577D141FBE6BCC0067C789 /* MyFiesta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFiesta.xcdatamodel; sourceTree = "<group>"; };
 		E4577D161FBE6BCC0067C789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4577D191FBE6BCC0067C789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4577D1B1FBE6BCC0067C789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4577D211FBE74BA0067C789 /* CollectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableViewController.swift; sourceTree = "<group>"; };
+		E4577D231FBE7C900067C789 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		E4577D251FBE808B0067C789 /* CollectionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDetailViewController.swift; sourceTree = "<group>"; };
+		E4577D271FBE90AD0067C789 /* CollectionDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionDetailTableViewCell.swift; sourceTree = "<group>"; };
+		E4577D2F1FC2539E0067C789 /* AddCollectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCollectionTableViewController.swift; sourceTree = "<group>"; };
+		E4A3740D1FE1CC58005CAD9C /* ColorHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHistoryTableViewController.swift; sourceTree = "<group>"; };
+		E4A3740F1FE1D178005CAD9C /* ColorHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		E4BE821C1FCCE41400189EAB /* ColorHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHistory.swift; sourceTree = "<group>"; };
+		E4D8D4E120AE4E43004DF834 /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		E4E6238B20C5EF340059F0A7 /* FavoritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewController.swift; sourceTree = "<group>"; };
+		E4E6238D20C5F14C0059F0A7 /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +68,7 @@
 		E4577D0A1FBE6BCC0067C789 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4577D091FBE6BCC0067C789 /* MyFiesta.app */,
+				E4577D091FBE6BCC0067C789 /* VistosoPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,7 +77,17 @@
 			isa = PBXGroup;
 			children = (
 				E4577D0C1FBE6BCC0067C789 /* AppDelegate.swift */,
-				E4577D0E1FBE6BCC0067C789 /* ViewController.swift */,
+				E4D8D4E120AE4E43004DF834 /* AboutTableViewController.swift */,
+				E4A3740D1FE1CC58005CAD9C /* ColorHistoryTableViewController.swift */,
+				E4A3740F1FE1D178005CAD9C /* ColorHistoryTableViewCell.swift */,
+				E4BE821C1FCCE41400189EAB /* ColorHistory.swift */,
+				E4577D211FBE74BA0067C789 /* CollectionTableViewController.swift */,
+				E4577D231FBE7C900067C789 /* CollectionTableViewCell.swift */,
+				E4577D251FBE808B0067C789 /* CollectionDetailViewController.swift */,
+				E4577D271FBE90AD0067C789 /* CollectionDetailTableViewCell.swift */,
+				E4577D2F1FC2539E0067C789 /* AddCollectionTableViewController.swift */,
+				E4E6238B20C5EF340059F0A7 /* FavoritesTableViewController.swift */,
+				E4E6238D20C5F14C0059F0A7 /* FavoritesTableViewCell.swift */,
 				E4577D101FBE6BCC0067C789 /* Main.storyboard */,
 				E4577D161FBE6BCC0067C789 /* Assets.xcassets */,
 				E4577D181FBE6BCC0067C789 /* LaunchScreen.storyboard */,
@@ -70,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4577D081FBE6BCC0067C789 /* MyFiesta */ = {
+		E4577D081FBE6BCC0067C789 /* VistosoPro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4577D1E1FBE6BCC0067C789 /* Build configuration list for PBXNativeTarget "MyFiesta" */;
+			buildConfigurationList = E4577D1E1FBE6BCC0067C789 /* Build configuration list for PBXNativeTarget "VistosoPro" */;
 			buildPhases = (
 				E4577D051FBE6BCC0067C789 /* Sources */,
 				E4577D061FBE6BCC0067C789 /* Frameworks */,
@@ -82,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = MyFiesta;
+			name = VistosoPro;
 			productName = MyFiesta;
-			productReference = E4577D091FBE6BCC0067C789 /* MyFiesta.app */;
+			productReference = E4577D091FBE6BCC0067C789 /* VistosoPro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,16 +124,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Matthew Shaver";
 				TargetAttributes = {
 					E4577D081FBE6BCC0067C789 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4S4LWCYS4E;
+						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E4577D041FBE6BCB0067C789 /* Build configuration list for PBXProject "MyFiesta" */;
+			buildConfigurationList = E4577D041FBE6BCB0067C789 /* Build configuration list for PBXProject "VistosoPro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4577D081FBE6BCC0067C789 /* MyFiesta */,
+				E4577D081FBE6BCC0067C789 /* VistosoPro */,
 			);
 		};
 /* End PBXProject section */
@@ -140,8 +172,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4577D151FBE6BCC0067C789 /* MyFiesta.xcdatamodeld in Sources */,
-				E4577D0F1FBE6BCC0067C789 /* ViewController.swift in Sources */,
+				E4577D261FBE808B0067C789 /* CollectionDetailViewController.swift in Sources */,
+				E4577D301FC2539E0067C789 /* AddCollectionTableViewController.swift in Sources */,
+				E4E6238C20C5EF340059F0A7 /* FavoritesTableViewController.swift in Sources */,
+				E4D8D4E220AE4E43004DF834 /* AboutTableViewController.swift in Sources */,
+				E4577D281FBE90AD0067C789 /* CollectionDetailTableViewCell.swift in Sources */,
+				E4A374101FE1D178005CAD9C /* ColorHistoryTableViewCell.swift in Sources */,
+				E4A3740E1FE1CC58005CAD9C /* ColorHistoryTableViewController.swift in Sources */,
+				E4577D221FBE74BA0067C789 /* CollectionTableViewController.swift in Sources */,
+				E4E6238E20C5F14C0059F0A7 /* FavoritesTableViewCell.swift in Sources */,
 				E4577D0D1FBE6BCC0067C789 /* AppDelegate.swift in Sources */,
+				E4577D241FBE7C900067C789 /* CollectionTableViewCell.swift in Sources */,
+				E4BE821D1FCCE41400189EAB /* ColorHistory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,15 +219,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -227,15 +277,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -264,11 +322,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S4LWCYS4E;
 				INFOPLIST_FILE = MyFiesta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewshaver.www.MyFiesta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewshaver.www.vp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -276,18 +337,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4S4LWCYS4E;
 				INFOPLIST_FILE = MyFiesta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.matthewshaver.www.MyFiesta;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewshaver.www.vp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4577D041FBE6BCB0067C789 /* Build configuration list for PBXProject "MyFiesta" */ = {
+		E4577D041FBE6BCB0067C789 /* Build configuration list for PBXProject "VistosoPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4577D1C1FBE6BCC0067C789 /* Debug */,
@@ -296,13 +360,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4577D1E1FBE6BCC0067C789 /* Build configuration list for PBXNativeTarget "MyFiesta" */ = {
+		E4577D1E1FBE6BCC0067C789 /* Build configuration list for PBXNativeTarget "VistosoPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4577D1F1FBE6BCC0067C789 /* Debug */,
 				E4577D201FBE6BCC0067C789 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

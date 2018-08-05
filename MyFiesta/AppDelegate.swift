@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MyFiesta
+//  VistosoPro
 //
 //  Created by Matthew Shaver on 11/16/17.
 //  Copyright © 2017 Matthew Shaver. All rights reserved.
@@ -17,8 +17,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Customize the color palette of the navigation bar
+        UINavigationBar.appearance().barTintColor = UIColor(red: 239.0/255.0, green:
+            239.0/255.0, blue: 239.0/255.0, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.gray
+        
+        //Set the navbar typeface.  Visit iosfonts.com for all the different typefaces.
+        if let barFont = UIFont(name: "HelveticaNeue-Light", size: 24.0) {
+            UINavigationBar.appearance().titleTextAttributes =
+                [NSAttributedStringKey.foregroundColor:UIColor.gray, NSAttributedStringKey.font:barFont]
+            
+            //Change the status bar color to white.
+            UIApplication.shared.statusBarStyle = .lightContent
+		
+		
+		
+        }
+
+	
+	// Set tab bar style
+	UITabBar.appearance().tintColor = UIColor(red: 218.0/255.0, green: 100.0/255.0, blue: 70.0/255.0, alpha: 1.0)
+	UITabBar.appearance().barTintColor = UIColor(red: 236.0/255.0, green: 240.0/255.0, blue: 241.0/255.0, alpha: 1.0)
+	
+	// Uncomment the following lines to display an indicator image
+	UITabBar.appearance().tintColor = UIColor.black
+	//        UITabBar.appearance().selectionIndicatorImage = UIImage(named: "tabitem-selected")
+	
         return true
     }
+	
+
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
